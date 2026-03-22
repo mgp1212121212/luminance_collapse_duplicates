@@ -3,20 +3,14 @@
 // @include     /https?://www\.empornium\.(me|sx|is)/torrents\.php.*/
 // @exclude     /https?://www\.empornium\.(me|sx|is)/torrents\.php\?id.*/
 // @include     /https?://www\.empornium\.(me|sx|is)/user\.php.*/
-// @include     /https?://femdomcult\.org/torrents\.php.*/
-// @exclude     /https?://femdomcult\.org/torrents\.php\?id.*/
-// @include     /https?://femdomcult\.org/user\.php.*/
-// @include     /https?://www\.cheggit\.me/torrents\.php.*/
-// @exclude     /https?://www\.cheggit\.me/torrents\.php\?id.*/
-// @include     /https?://www\.cheggit\.me/user\.php.*/
+// @include     /https?://www\.happyfappy\.net/torrents\.php.*/
+// @exclude     /https?://www\.happyfappy\.net/torrents\.php\?id.*/
+// @include     /https?://www\.happyfappy\.net/user\.php.*/
 // @include     /https?://pornbay\.org/torrents\.php.*/
 // @exclude     /https?://pornbay\.org/torrents\.php\?id.*/
 // @include     /https?://pornbay\.org/user\.php.*/
-// @include     /https?://(www\.)?enthralled\.me/torrents\.php.*/
-// @exclude     /https?://(www\.)?enthralled\.me/torrents\.php\?id.*/
-// @include     /https?://(www\.)?enthralled\.me/user\.php.*/
-// @version     27.0
-// @updateURL   https://github.com/colligere/collapse_duplicates/raw/master/gazelle_collapse_duplicates.user.js
+// @version     28.0
+// @updateURL   https://github.com/mgp1212121212/luminance_collapse_duplicates/raw/master/gazelle_collapse_duplicates.user.js
 // @require     http://code.jquery.com/jquery-2.1.1.js
 // @require     https://raw.githubusercontent.com/jashkenas/underscore/1.8.3/underscore.js
 // @grant       GM.setValue
@@ -33,6 +27,8 @@
 // The original version of this script was written by node998 but hasn't been maintained in a while. I have now forked the script on github to incorporate some recent fixes and additions.
 
 // Changelog:
+// * version 28.0
+// - Updated trackers to luminance-based trackers
 // * version 27.0
 // - Added an option to collapse chronologically (you'll see the group in the newest post's location)
 // * version 26.2
