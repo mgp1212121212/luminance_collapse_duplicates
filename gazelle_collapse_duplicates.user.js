@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name        gazelle collapse duplicates
+// @name        luminance collapse duplicates
 // @include     /https?://www\.empornium\.(me|sx|is)/torrents\.php.*/
 // @exclude     /https?://www\.empornium\.(me|sx|is)/torrents\.php\?id.*/
 // @include     /https?://www\.empornium\.(me|sx|is)/user\.php.*/
